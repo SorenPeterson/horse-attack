@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33208D8419CAAD2300E19CCA /* GameOverBackground.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 33208D8219CAAD2300E19CCA /* GameOverBackground.m4a */; };
+		33208D8519CAAD2300E19CCA /* TitleBackground.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 33208D8319CAAD2300E19CCA /* TitleBackground.m4a */; };
+		333881CD19C92F0B008A35C4 /* OHGameOverScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 333881CC19C92F0B008A35C4 /* OHGameOverScene.m */; };
+		333881CF19C9F7F6008A35C4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 333881CE19C9F7F6008A35C4 /* AVFoundation.framework */; };
+		3338841219CA022E008A35C4 /* GamePlayBackground.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 3338841119CA022E008A35C4 /* GamePlayBackground.m4a */; };
+		334CBF0119EB29270016B67D /* Sprites.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 334CBF0019EB29260016B67D /* Sprites.atlas */; };
+		33B3E5E1199D38190096754F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B3E5E0199D38190096754F /* Foundation.framework */; };
+		33B3E5E3199D38190096754F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B3E5E2199D38190096754F /* CoreGraphics.framework */; };
+		33B3E5E5199D38190096754F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B3E5E4199D38190096754F /* UIKit.framework */; };
+		33B3E5E7199D38190096754F /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B3E5E6199D38190096754F /* SpriteKit.framework */; };
+		33B3E5ED199D38190096754F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B3E5EB199D38190096754F /* InfoPlist.strings */; };
+		33B3E5EF199D38190096754F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3E5EE199D38190096754F /* main.m */; };
+		33B3E5F3199D38190096754F /* OHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3E5F2199D38190096754F /* OHAppDelegate.m */; };
+		33B3E5F6199D38190096754F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B3E5F4199D38190096754F /* Main.storyboard */; };
+		33B3E5F9199D38190096754F /* OHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3E5F8199D38190096754F /* OHViewController.m */; };
+		33B3E600199D38190096754F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33B3E5FF199D38190096754F /* Images.xcassets */; };
+		33B3E607199D38190096754F /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B3E606199D38190096754F /* XCTest.framework */; };
+		33B3E608199D38190096754F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B3E5E0199D38190096754F /* Foundation.framework */; };
+		33B3E609199D38190096754F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33B3E5E4199D38190096754F /* UIKit.framework */; };
+		33B3E611199D38190096754F /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 33B3E60F199D38190096754F /* InfoPlist.strings */; };
+		33B3E613199D38190096754F /* Horse_Attack_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3E612199D38190096754F /* Horse_Attack_iPadTests.m */; };
+		33B3E61E199D39260096754F /* OHTitleScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3E61D199D39260096754F /* OHTitleScene.m */; };
+		33B3E621199D3EAA0096754F /* OHGamePlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3E620199D3EAA0096754F /* OHGamePlayScene.m */; };
+		33B3E627199D61070096754F /* OHHorseNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B3E626199D61070096754F /* OHHorseNode.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33B3E60A199D38190096754F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33B3E5D5199D38180096754F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33B3E5DC199D38190096754F;
+			remoteInfo = "Horse Attack iPad";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33208D8219CAAD2300E19CCA /* GameOverBackground.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = GameOverBackground.m4a; sourceTree = "<group>"; };
+		33208D8319CAAD2300E19CCA /* TitleBackground.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = TitleBackground.m4a; sourceTree = "<group>"; };
+		333881CB19C92F0B008A35C4 /* OHGameOverScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHGameOverScene.h; sourceTree = "<group>"; };
+		333881CC19C92F0B008A35C4 /* OHGameOverScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHGameOverScene.m; sourceTree = "<group>"; };
+		333881CE19C9F7F6008A35C4 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		3338841119CA022E008A35C4 /* GamePlayBackground.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = GamePlayBackground.m4a; sourceTree = "<group>"; };
+		334CBF0019EB29260016B67D /* Sprites.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Sprites.atlas; sourceTree = "<group>"; };
+		33B3E5DD199D38190096754F /* Horse Attack iPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Horse Attack iPad.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B3E5E0199D38190096754F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		33B3E5E2199D38190096754F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		33B3E5E4199D38190096754F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		33B3E5E6199D38190096754F /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		33B3E5EA199D38190096754F /* Horse Attack iPad-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Horse Attack iPad-Info.plist"; sourceTree = "<group>"; };
+		33B3E5EC199D38190096754F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33B3E5EE199D38190096754F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33B3E5F0199D38190096754F /* Horse Attack iPad-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Horse Attack iPad-Prefix.pch"; sourceTree = "<group>"; };
+		33B3E5F1199D38190096754F /* OHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OHAppDelegate.h; sourceTree = "<group>"; };
+		33B3E5F2199D38190096754F /* OHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OHAppDelegate.m; sourceTree = "<group>"; };
+		33B3E5F5199D38190096754F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33B3E5F7199D38190096754F /* OHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OHViewController.h; sourceTree = "<group>"; };
+		33B3E5F8199D38190096754F /* OHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OHViewController.m; sourceTree = "<group>"; };
+		33B3E5FF199D38190096754F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		33B3E605199D38190096754F /* Horse Attack iPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Horse Attack iPadTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33B3E606199D38190096754F /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		33B3E60E199D38190096754F /* Horse Attack iPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Horse Attack iPadTests-Info.plist"; sourceTree = "<group>"; };
+		33B3E610199D38190096754F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		33B3E612199D38190096754F /* Horse_Attack_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Horse_Attack_iPadTests.m; sourceTree = "<group>"; };
+		33B3E61C199D39260096754F /* OHTitleScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHTitleScene.h; sourceTree = "<group>"; };
+		33B3E61D199D39260096754F /* OHTitleScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHTitleScene.m; sourceTree = "<group>"; };
+		33B3E61F199D3EAA0096754F /* OHGamePlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHGamePlayScene.h; sourceTree = "<group>"; };
+		33B3E620199D3EAA0096754F /* OHGamePlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHGamePlayScene.m; sourceTree = "<group>"; };
+		33B3E625199D61070096754F /* OHHorseNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OHHorseNode.h; sourceTree = "<group>"; };
+		33B3E626199D61070096754F /* OHHorseNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OHHorseNode.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33B3E5DA199D38190096754F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				333881CF19C9F7F6008A35C4 /* AVFoundation.framework in Frameworks */,
+				33B3E5E3199D38190096754F /* CoreGraphics.framework in Frameworks */,
+				33B3E5E5199D38190096754F /* UIKit.framework in Frameworks */,
+				33B3E5E7199D38190096754F /* SpriteKit.framework in Frameworks */,
+				33B3E5E1199D38190096754F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B3E602199D38190096754F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B3E607199D38190096754F /* XCTest.framework in Frameworks */,
+				33B3E609199D38190096754F /* UIKit.framework in Frameworks */,
+				33B3E608199D38190096754F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333881D019C9FF0C008A35C4 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				33208D8219CAAD2300E19CCA /* GameOverBackground.m4a */,
+				33208D8319CAAD2300E19CCA /* TitleBackground.m4a */,
+				3338841119CA022E008A35C4 /* GamePlayBackground.m4a */,
+			);
+			name = Sounds;
+			sourceTree = "<group>";
+		};
+		33B3E5D4199D38180096754F = {
+			isa = PBXGroup;
+			children = (
+				33B3E5E8199D38190096754F /* Horse Attack iPad */,
+				33B3E60C199D38190096754F /* Horse Attack iPadTests */,
+				33B3E5DF199D38190096754F /* Frameworks */,
+				33B3E5DE199D38190096754F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33B3E5DE199D38190096754F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33B3E5DD199D38190096754F /* Horse Attack iPad.app */,
+				33B3E605199D38190096754F /* Horse Attack iPadTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33B3E5DF199D38190096754F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				333881CE19C9F7F6008A35C4 /* AVFoundation.framework */,
+				33B3E5E0199D38190096754F /* Foundation.framework */,
+				33B3E5E2199D38190096754F /* CoreGraphics.framework */,
+				33B3E5E4199D38190096754F /* UIKit.framework */,
+				33B3E5E6199D38190096754F /* SpriteKit.framework */,
+				33B3E606199D38190096754F /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		33B3E5E8199D38190096754F /* Horse Attack iPad */ = {
+			isa = PBXGroup;
+			children = (
+				334CBF0019EB29260016B67D /* Sprites.atlas */,
+				333881D019C9FF0C008A35C4 /* Sounds */,
+				33B3E5F4199D38190096754F /* Main.storyboard */,
+				33B3E5FF199D38190096754F /* Images.xcassets */,
+				33B3E5E9199D38190096754F /* Supporting Files */,
+				33B3E61C199D39260096754F /* OHTitleScene.h */,
+				33B3E61D199D39260096754F /* OHTitleScene.m */,
+				33B3E61F199D3EAA0096754F /* OHGamePlayScene.h */,
+				33B3E620199D3EAA0096754F /* OHGamePlayScene.m */,
+				333881CB19C92F0B008A35C4 /* OHGameOverScene.h */,
+				333881CC19C92F0B008A35C4 /* OHGameOverScene.m */,
+				33B3E625199D61070096754F /* OHHorseNode.h */,
+				33B3E626199D61070096754F /* OHHorseNode.m */,
+			);
+			path = "Horse Attack iPad";
+			sourceTree = "<group>";
+		};
+		33B3E5E9199D38190096754F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33B3E5F1199D38190096754F /* OHAppDelegate.h */,
+				33B3E5F2199D38190096754F /* OHAppDelegate.m */,
+				33B3E5F7199D38190096754F /* OHViewController.h */,
+				33B3E5F8199D38190096754F /* OHViewController.m */,
+				33B3E5EA199D38190096754F /* Horse Attack iPad-Info.plist */,
+				33B3E5EB199D38190096754F /* InfoPlist.strings */,
+				33B3E5EE199D38190096754F /* main.m */,
+				33B3E5F0199D38190096754F /* Horse Attack iPad-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		33B3E60C199D38190096754F /* Horse Attack iPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				33B3E612199D38190096754F /* Horse_Attack_iPadTests.m */,
+				33B3E60D199D38190096754F /* Supporting Files */,
+			);
+			path = "Horse Attack iPadTests";
+			sourceTree = "<group>";
+		};
+		33B3E60D199D38190096754F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				33B3E60E199D38190096754F /* Horse Attack iPadTests-Info.plist */,
+				33B3E60F199D38190096754F /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33B3E5DC199D38190096754F /* Horse Attack iPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B3E616199D38190096754F /* Build configuration list for PBXNativeTarget "Horse Attack iPad" */;
+			buildPhases = (
+				33B3E5D9199D38190096754F /* Sources */,
+				33B3E5DA199D38190096754F /* Frameworks */,
+				33B3E5DB199D38190096754F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Horse Attack iPad";
+			productName = "Horse Attack iPad";
+			productReference = 33B3E5DD199D38190096754F /* Horse Attack iPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33B3E604199D38190096754F /* Horse Attack iPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33B3E619199D38190096754F /* Build configuration list for PBXNativeTarget "Horse Attack iPadTests" */;
+			buildPhases = (
+				33B3E601199D38190096754F /* Sources */,
+				33B3E602199D38190096754F /* Frameworks */,
+				33B3E603199D38190096754F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33B3E60B199D38190096754F /* PBXTargetDependency */,
+			);
+			name = "Horse Attack iPadTests";
+			productName = "Horse Attack iPadTests";
+			productReference = 33B3E605199D38190096754F /* Horse Attack iPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33B3E5D5199D38180096754F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = otterhive;
+				TargetAttributes = {
+					33B3E5DC199D38190096754F = {
+						DevelopmentTeam = XZY4A8HPV8;
+					};
+					33B3E604199D38190096754F = {
+						TestTargetID = 33B3E5DC199D38190096754F;
+					};
+				};
+			};
+			buildConfigurationList = 33B3E5D8199D38180096754F /* Build configuration list for PBXProject "Horse Attack iPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33B3E5D4199D38180096754F;
+			productRefGroup = 33B3E5DE199D38190096754F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33B3E5DC199D38190096754F /* Horse Attack iPad */,
+				33B3E604199D38190096754F /* Horse Attack iPadTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33B3E5DB199D38190096754F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33208D8519CAAD2300E19CCA /* TitleBackground.m4a in Resources */,
+				334CBF0119EB29270016B67D /* Sprites.atlas in Resources */,
+				33B3E5ED199D38190096754F /* InfoPlist.strings in Resources */,
+				33B3E600199D38190096754F /* Images.xcassets in Resources */,
+				33208D8419CAAD2300E19CCA /* GameOverBackground.m4a in Resources */,
+				3338841219CA022E008A35C4 /* GamePlayBackground.m4a in Resources */,
+				33B3E5F6199D38190096754F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B3E603199D38190096754F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B3E611199D38190096754F /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33B3E5D9199D38190096754F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B3E61E199D39260096754F /* OHTitleScene.m in Sources */,
+				33B3E5EF199D38190096754F /* main.m in Sources */,
+				33B3E627199D61070096754F /* OHHorseNode.m in Sources */,
+				33B3E5F3199D38190096754F /* OHAppDelegate.m in Sources */,
+				33B3E621199D3EAA0096754F /* OHGamePlayScene.m in Sources */,
+				333881CD19C92F0B008A35C4 /* OHGameOverScene.m in Sources */,
+				33B3E5F9199D38190096754F /* OHViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33B3E601199D38190096754F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33B3E613199D38190096754F /* Horse_Attack_iPadTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33B3E60B199D38190096754F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33B3E5DC199D38190096754F /* Horse Attack iPad */;
+			targetProxy = 33B3E60A199D38190096754F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33B3E5EB199D38190096754F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B3E5EC199D38190096754F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		33B3E5F4199D38190096754F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B3E5F5199D38190096754F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33B3E60F199D38190096754F /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33B3E610199D38190096754F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33B3E614199D38190096754F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33B3E615199D38190096754F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33B3E617199D38190096754F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Horse Attack iPad/Horse Attack iPad-Prefix.pch";
+				INFOPLIST_FILE = "Horse Attack iPad/Horse Attack iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		33B3E618199D38190096754F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Horse Attack iPad/Horse Attack iPad-Prefix.pch";
+				INFOPLIST_FILE = "Horse Attack iPad/Horse Attack iPad-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_CODE_SIGN_FLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = iphoneos;
+				SPRITEKIT_TEXTURE_ATLAS_OUTPUT = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		33B3E61A199D38190096754F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Horse Attack iPad.app/Horse Attack iPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Horse Attack iPad/Horse Attack iPad-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Horse Attack iPadTests/Horse Attack iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		33B3E61B199D38190096754F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Horse Attack iPad.app/Horse Attack iPad";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Horse Attack iPad/Horse Attack iPad-Prefix.pch";
+				INFOPLIST_FILE = "Horse Attack iPadTests/Horse Attack iPadTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33B3E5D8199D38180096754F /* Build configuration list for PBXProject "Horse Attack iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B3E614199D38190096754F /* Debug */,
+				33B3E615199D38190096754F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B3E616199D38190096754F /* Build configuration list for PBXNativeTarget "Horse Attack iPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B3E617199D38190096754F /* Debug */,
+				33B3E618199D38190096754F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33B3E619199D38190096754F /* Build configuration list for PBXNativeTarget "Horse Attack iPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33B3E61A199D38190096754F /* Debug */,
+				33B3E61B199D38190096754F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33B3E5D5199D38180096754F /* Project object */;
+}
